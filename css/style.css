@@ -1,0 +1,37 @@
+@font-face {
+    font-family:'Pacifico-R' ;
+    src: url(../webfonts/Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: 'Righteous-R';
+    src: url(../webfonts/Righteous-Regular.ttf);
+}
+:root {
+    --main-color:rgb(30, 30, 30);
+    --main-color-rgb:30, 30, 30;
+    --body-background-color:#f7ecde;
+    --body-background-color-rgb:247, 236, 222;
+    --heading-font-family: 'Pacifico-R';
+    --body-font-family: 'Righteous-R';
+}
+body{
+    background-color: var(--body-background-color);
+    color: var(--main-color);
+}
+h1{
+    font-family: var(--heading-font-family);
+    font-size :50px;
+    font-weight: 500;
+}
+.text{
+    font-family: var(--body-font-family);
+    font-size: 25px;
+            background: linear-gradient(to right, green, yellow);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+} 
+
+
+
+
